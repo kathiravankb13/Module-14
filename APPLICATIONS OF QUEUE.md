@@ -4,8 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program to implement CPU Process Scheduling using a queue.
-
+To write a Python program to insert 14, 15 at FRONT END of deque using collection built-in function.
 ---
 
 ### ALGORITHM  
@@ -32,11 +31,19 @@ To write a Python program to implement CPU Process Scheduling using a queue.
 ### PROGRAM  
 
 ```
-
+from collections import deque
+a=int(input())
+b=int(input())
+c=int(input())
+t=deque([a,b,c])
+t.appendleft(14)
+t.appendleft(15)
+print("The deque after appending is : ")
+print(t)
 ```
 
 ### OUTPUT
-
+![image](https://github.com/user-attachments/assets/988cf44d-a3be-4271-a981-a1aa80bfb7b1)
 
 ### RESULT
-
+Thus, the program is executed and verified successfully. 
